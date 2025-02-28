@@ -6,29 +6,159 @@
     <title>Hoja de Vida - Mateo Correa</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2 {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
             color: #333;
         }
-        .section {
-            margin-bottom: 20px;
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .section h2 {
-            border-bottom: 2px solid #333;
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #2c3e50;
             padding-bottom: 5px;
+            margin-top: 20px;
         }
-        .section p {
-            margin: 5px 0;
+        p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        em {
+            color: #555;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Hoja de Vida</h1>
+    <div class="container">
+        <header>
+            <h1>Mateo Correa</h1>
+            <p style="text-align: center; font-size: 1.2em; color: #555;">Estudiante | Futuro Médico | Amante del Fitness</p>
+            <img src="https://via.placeholder.com/150" alt="Foto de Mateo Correa">
+        </header>
+
+        <section>
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Mateo Correa</p>
+            <p><strong>Edad:</strong> 17 años</p>
+            <p><strong>Fecha de Nacimiento:</strong> Bogotá, Colombia</p>
+            <p><strong>Ciudad:</strong> Bogotá, Colombia</p>
+            <p><strong>Email:</strong> <a href="mailto:mateo.correa@example.com">mateo.correa@example.com</a></p>
+            <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+        </section>
+
+        <section>
+            <h2>Educación</h2>
+            <ol>
+                <li><strong>Colegio Ekiraya Montessori</strong> - Primaria y Bachillerato</li>
+                <li><strong>Colegio Fabio Pardo</strong> - Bachillerato</li>
+            </ol>
+            <p><strong>Grado:</strong> 11° (Último año de bachillerato)</p>
+            <p><strong>Intereses académicos:</strong> Ciencias naturales, Biología, Química</p>
+        </section>
+
+        <section>
+            <h2>Actividades y Hobbies</h2>
+            <ul>
+                <li><strong>Gimnasio:</strong> Entreno 5 días a la semana para mantenerme en forma y saludable.</li>
+                <li><strong>Deportes:</strong> Formo parte del equipo de fútbol del colegio.</li>
+                <li><strong>Música:</strong> Disfruto escuchar música para relajarme y motivarme.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Objetivos Profesionales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Objetivo</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Carrera:</strong></td>
+                        <td>Medicina</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Motivación:</strong></td>
+                        <td>Deseo estudiar medicina para ayudar a las personas y contribuir al bienestar de la sociedad.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metas a corto plazo:</strong></td>
+                        <td>Graduarme del colegio y obtener un puntaje alto en las pruebas de ingreso a la universidad.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Metas a largo plazo:</strong></td>
+                        <td>Especializarme en cirugía o cardiología y trabajar en un hospital reconocido.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>© 2023 Mateo Correa. Todos los derechos reservados.</p>
+            <p><a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
         <h2>Mateo Correa</h2>
     </header>
 
