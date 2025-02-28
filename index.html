@@ -10,16 +10,16 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
             color: #333;
         }
         .container {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
         h1, h2 {
             color: #2c3e50;
@@ -28,21 +28,24 @@
             text-align: center;
             font-size: 2.5em;
             margin-bottom: 10px;
+            color: #2575fc;
         }
         h2 {
-            border-bottom: 2px solid #2c3e50;
+            border-bottom: 2px solid #2575fc;
             padding-bottom: 5px;
             margin-top: 20px;
+            color: #2c3e50;
         }
         p {
             margin: 10px 0;
             font-size: 1.1em;
         }
         strong {
-            color: #2c3e50;
+            color: #2575fc;
         }
         em {
             color: #555;
+            font-style: italic;
         }
         img {
             display: block;
@@ -51,6 +54,7 @@
             width: 150px;
             height: 150px;
             object-fit: cover;
+            border: 4px solid #2575fc;
         }
         table {
             width: 100%;
@@ -65,7 +69,7 @@
             text-align: left;
         }
         th {
-            background-color: #2c3e50;
+            background-color: #2575fc;
             color: white;
         }
         footer {
@@ -75,11 +79,18 @@
             color: #777;
         }
         a {
-            color: #2c3e50;
+            color: #2575fc;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        ul li, ol li {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -88,7 +99,7 @@
     <div class="container">
         <header>
             <h1>Mateo Correa</h1>
-            <p style="text-align: center; font-size: 1.2em; color: #555;">Estudiante | Futuro Médico | Amante del Fitness</p>
+            <p style="text-align: center; font-size: 1.2em; color: #555;">Estudiante | Futuro Psiquiatra | Amante del Fitness</p>
             <img src="https://via.placeholder.com/150" alt="Foto de Mateo Correa">
         </header>
 
@@ -98,15 +109,14 @@
             <p><strong>Edad:</strong> 17 años</p>
             <p><strong>Fecha de Nacimiento:</strong> Bogotá, Colombia</p>
             <p><strong>Ciudad:</strong> Bogotá, Colombia</p>
-            <p><strong>Email:</strong> <a href="mailto:mateo.correa@example.com">mateo.correa@example.com</a></p>
-            <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+            <p><strong>Email:</strong> <a href="mailto:mcorrea@est.cem.edu.co">mcorrea@est.cem.edu.co</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+573157143311">+57 315 714 3311</a></p>
         </section>
 
         <section>
             <h2>Educación</h2>
             <ol>
                 <li><strong>Colegio Ekiraya Montessori</strong> - Primaria y Bachillerato</li>
-                <li><strong>Colegio Fabio Pardo</strong> - Bachillerato</li>
             </ol>
             <p><strong>Grado:</strong> 11° (Último año de bachillerato)</p>
             <p><strong>Intereses académicos:</strong> Ciencias naturales, Biología, Química</p>
@@ -115,9 +125,8 @@
         <section>
             <h2>Actividades y Hobbies</h2>
             <ul>
-                <li><strong>Gimnasio:</strong> Entreno 5 días a la semana para mantenerme en forma y saludable.</li>
-                <li><strong>Deportes:</strong> Formo parte del equipo de fútbol del colegio.</li>
-                <li><strong>Música:</strong> Disfruto escuchar música para relajarme y motivarme.</li>
+                <li><strong>Deportes:</strong> Fútbol y Gimnasio (enfoque en hipertrofia).</li>
+                <li><strong>Música:</strong> Reggaetón, Bossa Nova, Hip Hop, R&B, Jazz.</li>
             </ul>
         </section>
 
@@ -132,20 +141,16 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Carrera:</strong></td>
-                        <td>Medicina</td>
-                    </tr>
-                    <tr>
                         <td><strong>Motivación:</strong></td>
-                        <td>Deseo estudiar medicina para ayudar a las personas y contribuir al bienestar de la sociedad.</td>
+                        <td>Deseo estudiar medicina y especializarme en psiquiatría para ayudar a las personas en sus desafíos con respecto a la psique humana.</td>
                     </tr>
                     <tr>
                         <td><strong>Metas a corto plazo:</strong></td>
-                        <td>Graduarme del colegio y obtener un puntaje alto en las pruebas de ingreso a la universidad.</td>
+                        <td>Graduarme del colegio y obtener un buen puntaje en el ICFES para ingresar a la facultad de medicina.</td>
                     </tr>
                     <tr>
                         <td><strong>Metas a largo plazo:</strong></td>
-                        <td>Especializarme en cirugía o cardiología y trabajar en un hospital reconocido.</td>
+                        <td>Especializarme en psiquiatría y convertirme en un experto en mi campo.</td>
                     </tr>
                 </tbody>
             </table>
@@ -156,46 +161,6 @@
             <p><a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
         </footer>
     </div>
-
-</body>
-</html>
-        <h2>Mateo Correa</h2>
-    </header>
-
-    <section class="section">
-        <h2>Información Personal</h2>
-        <p><strong>Nombre:</strong> Mateo Correa</p>
-        <p><strong>Edad:</strong> 17 años</p>
-        <p><strong>Ciudad:</strong> Bogotá, Colombia</p>
-        <p><strong>Email:</strong> mateo.correa@example.com</p>
-        <p><strong>Teléfono:</strong> +57 123 456 7890</p>
-    </section>
-
-    <section class="section">
-        <h2>Educación</h2>
-        <p><strong>Colegio:</strong> Colegio Ejemplo de Bogotá</p>
-        <p><strong>Grado:</strong> 11° (Último año de bachillerato)</p>
-        <p><strong>Intereses académicos:</strong> Ciencias naturales, Biología, Química</p>
-    </section>
-
-    <section class="section">
-        <h2>Intereses y Hobbies</h2>
-        <p><strong>Gimnasio:</strong> Me gusta mantener un estilo de vida activo y saludable.</p>
-        <p><strong>Deportes:</strong> Disfruto del fútbol y el atletismo.</p>
-        <p><strong>Música:</strong> Escucho música para relajarme y motivarme.</p>
-    </section>
-
-    <section class="section">
-        <h2>Objetivos Profesionales</h2>
-        <p><strong>Carrera:</strong> Medicina</p>
-        <p><strong>Motivación:</strong> Deseo estudiar medicina para ayudar a las personas y contribuir al bienestar de la sociedad.</p>
-        <p><strong>Metas a corto plazo:</strong> Graduarme del colegio y obtener un puntaje alto en las pruebas de ingreso a la universidad.</p>
-        <p><strong>Metas a largo plazo:</strong> Especializarme en cirugía o cardiología y trabajar en un hospital reconocido.</p>
-    </section>
-
-    <footer>
-        <p>© 2023 Mateo Correa. Todos los derechos reservados.</p>
-    </footer>
 
 </body>
 </html>
